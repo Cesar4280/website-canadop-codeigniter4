@@ -1,0 +1,25 @@
+.img-pendon {
+    background-size:cover !important;
+    background-position: center center !important;
+}
+.text-brown {
+    color: #b54837 !important;
+}
+.bg-brown {
+    background: #b54837 !important;
+}
+.content-opacity:hover > img {
+    filter: opacity(.9);
+    transform:scale(1.2);
+    -o-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+}
+.content-opacity > img {
+    transition: all 0.9s ease;
+    -o-transition:all .9s ease;
+    -ms-transition:all .9s ease;
+    -moz-transition:all .9s ease;
+    -webkit-transition:all .9s ease;
+}

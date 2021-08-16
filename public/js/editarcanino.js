@@ -1,0 +1,1 @@
+(function () { const $modal = new bootstrap.Modal(document.getElementById("modal"), { keyboard: false, backdrop: "static" }) })()
